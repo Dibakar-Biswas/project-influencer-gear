@@ -4,25 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer-Gear</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="styles/influencer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
-<body class="poppins-regular">
-    <header>
-        <div><h4 class="com-name">Influencer products</h4></div>
-        <div>
-            <p>Home</p>
-            <p>Products</p>
-            <p>Sign up</p>
-            <p>Log In</p>
-            <p></p>
-        </div>
-        
-    </header>
+<body>
     <main>
-
+        <section class="flex gap-[504px] mt-5">
+            <div><h4 class=" text-2xl font-bold  ml-20">Influencer products</h4></div>
+            <div class="flex gap-[25px] font-medium mr-18">
+                <p class="mr-3">Home</p>
+                <p class="mr-3">Products</p>
+                <p class="mr-3">Sign up</p>
+                <p class="mr-3">Log In</p>
+                <img class="w-[19px] h-[19px] mr-3" src="icons/search.png" alt=""><br>
+                <img class="w-[19px] h-[19px]" src="icons/cart.png" alt="">
+            </div>
+        </section>
+        <section class="flex gap-32">
+            <div class=" w-[582px] h-[270px] ml-[80px] mt-[145px]">
+                <h2 class=" text-[52px] font-bold">Start your Journey as Influencer</h2>
+                <p class="font-medium text-[16px] decoration-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                <div class="flex bg-[#E02C6D] w-48 h-11 rounded-[41px] hover:bg-cyan-200">
+                    <button class="font-bold ml-6 text-[16px] decoration-white">Preebook now</button>
+                    <img class=" h-[14px] w-4 mt-4" src="icons/arrow.png" alt="">
+                </div>
+            </div>
+            <div>
+                <img class=" bg-[url(../images/Circle-design.svg)] w-[440px] h-[414px] mr-[165px] mt-20" src="images/main-camera.png" alt="">
+            </div>
+        </section>
+        <section class="flex ml-[160px] mt-34 h-10 gap-12">
+            <img class="w-[55px] h-[31px]" src="logos/Alibaba.svg" alt="">
+            <img class="w-[84px] h-[25px]" src="logos/Amazon.svg" alt="">
+            <img class="w-[84px] h-[26px]" src="logos/Daraz.pk Logo.svg" alt="">
+            <img class="w-[99px] h-[39px]" src="logos/Ebay.svg" alt="">
+            <img class="w-[97px] h-[28px]" src="logos/Rakuten.svg" alt="">
+            <img class="w-[111px] h-[26px]" src="logos/Walmart.svg" alt="">
+            <img class="w-[91px] h-[38px]" src="logos/Target.svg" alt="">
+        </section>
+        <section class="mb-[100px]">
+            <h2 class="font-medium text-3xl ml-[510px] mt-24">Popular Collection</h2>
+            <sub-section class="w-[1047px] ml-[100px] mt-[30px] drop-shadow-xl grid grid-cols-3 gap-10">
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/tripod.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Flex Tripod</h4>
+                    <h5 class="text-2xl mt-1">$50.48</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/mic.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Microphone</h4>
+                    <h5 class="text-2xl mt-1">$120.25</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/airpod.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Airbuds</h4>
+                    <h5 class="text-2xl mt-1">$100.00</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/drone.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Drone</h4>
+                    <h5 class="text-2xl mt-1">$980.25</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/lights.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Light Setup</h4>
+                    <h5 class="text-2xl mt-1">$1200.00</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/setup.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Photoshoot set</h4>
+                    <h5 class="text-2xl mt-1">$820.40</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/camera.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Vlogging Camera</h4>
+                    <h5 class="text-2xl mt-1">$1800.80</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/single-light.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Green Screen</h4>
+                    <h5 class="text-2xl mt-1">$25.48</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+                <div class="h-[426px] w-[329px] bg-[#EDE0E0] rounded-[5px] p-3">
+                    <img class="w-[300px] h-64 rounded-[5px]" src="images/action.png" alt="">
+                    <h4 class="font-medium text-3xl mt-1">Action Camera</h4>
+                    <h5 class="text-2xl mt-1">$380.00</h5>
+                    <p class="text-[14px] font-bold mt-1">Wordwide shifting <br> available <br> Buyers protection possible!</p>
+                </div>
+            </sub-section>
+        </section>
     </main>
     <footer>
 
